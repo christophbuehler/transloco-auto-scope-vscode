@@ -22,7 +22,7 @@ function insertAutoScope() {
     const startPosition = new vscode.Position(0, 0);
     const endPosition = new vscode.Position(doc?.lineCount, 0);
     const path = doc.fileName;
-    if ((0, path_1.extname)(path) !== 'html') {
+    if ((0, path_1.extname)(path) !== '.html') {
         vscode.window.showInformationMessage('Open an html file to insert transloco scope.');
         return;
     }
