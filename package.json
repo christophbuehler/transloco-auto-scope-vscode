@@ -3,6 +3,7 @@
   "displayName": "Transloco Auto Scope",
   "description": "",
   "version": "0.0.1",
+  "publisher": "cbuehler",
   "repository": {
     "type": "git",
     "url": "https://github.com/christophbuehler/transloco-auto-scope-vscode"
